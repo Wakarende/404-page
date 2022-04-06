@@ -2,12 +2,56 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   scroll-behavior: smooth; 
+   scroll-behavior: smooth;
+   cursor: pointer; 
 }
 
 body{
-    font-family: "Poppins", sans-serif;
+    font-family: 'Space Mono', monospace;
 }
+
 button{
     text-transform: uppercase;
+}
+
+.navbar{
+    margin-top: 10px;
+    font-family: 'Inconsolata';
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    font-weight: 700;
+    color: #333333;
+    font-size: 24px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    margin-top: 100px;
+}
+.scarecrow{
+    width: 450px;
+}
+
+.title{
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    font-weight: 700;
+    color: #333333;
+}
+.paragraph{
+    width: 320px;
+}
+.text{
+    color: #4F4F4F;
+    margin-top: 16px;
+}
+.button{
+    background: #333333;
+    color: white;
+    padding: 23px 40px;
+    border: 1px solid #333333;
+    margin-top: 34px;
 }
