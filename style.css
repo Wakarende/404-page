@@ -55,3 +55,32 @@ button{
     border: 1px solid #333333;
     margin-top: 34px;
 }
+
+@media screen and (max-width:480px) {
+    .scarecrow{
+        display: block;
+        width:400px;
+        margin-left: auto;
+        margin-right: auto;
+        /* display: absolute; */
+        
+    }
+    .flex{
+        display: block;
+    }
+
+    .right{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title{
+        font-size: 48px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .right{
+        padding: 24px;
+    }
+}
